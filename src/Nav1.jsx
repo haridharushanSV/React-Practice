@@ -1,5 +1,6 @@
 import img1 from "./assets/img1.jpg";
 function Nav1(props) {
+  if(props.show==true){
     return (
        
           <div className=" card">
@@ -8,7 +9,7 @@ function Nav1(props) {
             <p>Price:{props.name}</p>                         
         </div>
         
-    );}
+    );}}
 
 Nav1.defaultProps={
     name:"haridefa",

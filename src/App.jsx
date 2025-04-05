@@ -1,9 +1,11 @@
 import Nav1 from "./Nav1";
-import CardList from "./CardList.jsx";
 export default function App() {
   return (
    <div >
-     <CardList/>
+    
+     <Nav1 name="hari" show={true}/>
+     <Nav1 show={true}/>
+
 
 </div>
   );
